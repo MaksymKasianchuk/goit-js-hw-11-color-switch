@@ -9,8 +9,9 @@ button {
   height: 70px;
   font-size: 20px;
   border-radius: 50px;
-  color: #fff;
+  color: #000;
   cursor: pointer;
+  border:  none;
 }
 button[data-action="start"] {
     margin-right: 15px;
