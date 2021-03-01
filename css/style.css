@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 350px;
+}
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+button[data-action="start"] {
+    margin-right: 15px;
+    background-color: rgb(6, 233, 6);
+    
+}
+button[data-action="stop"] {
+    background-color: rgb(255, 0, 0);
+}
+
+button,
+body {
+  transition: all 0.2s ease-out;
+}
